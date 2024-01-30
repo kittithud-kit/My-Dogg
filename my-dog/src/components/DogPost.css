@@ -1,0 +1,43 @@
+.dog-post {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dog-post-bg {
+  background-color: rgba(61, 59, 59, 0.826);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: zoom-out;
+}
+
+.dog-post-content {
+  position: relative;
+  max-width: 1200px;
+  background-color: rgb(43, 0, 0);
+  border-radius: 40px;
+}
+
+.dog-post-content img {
+  display: block;
+  max-width: 100%;
+  max-height: calc(100vh - 120px);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+}
+
+.dog-post-content h4 {
+  color: white;
+  text-align: center;
+}

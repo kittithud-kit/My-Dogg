@@ -1,0 +1,7 @@
+.dog-item img {
+  display: block;
+  width: 360px;
+  height: 260px;
+  cursor: zoom-in;
+  border-radius: 20px;
+}
